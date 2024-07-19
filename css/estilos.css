@@ -1,0 +1,265 @@
+body{/*CSS FEUNTES GENERALES PRINCIPAL*/
+    font-family: 'Oswald', sans-serif;/*Estilo Global aplicado a LA PAGINA WEB*/
+}
+
+body{/**CONFIURACIONES BASICAS/
+    /*background-color:#030B4E; // POR SI NO ME GUSTA EL DEGRADADO*/
+    background-image: linear-gradient( #06116d, #19191b); /*PRUEBA DE COLOR DEGRADADO*/
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#nomEmpre {
+    text-align: center;
+    padding: 1%;
+    font-size: 3.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    line-height: 80%;
+    margin: auto;
+}
+
+.banner{
+    border: 5px solid white;
+    width: 99%;
+    height: auto;
+    margin-top: 2%;
+}
+
+.logoRedondo{
+    width: 11%;
+    height: 11%;
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-right: 0%;
+}
+
+#titu-menu {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding: 1%;
+    text-align: center;
+    margin-right: 70%;
+}
+
+.nav-menu {
+    color: white;
+    font-size: 1.4rem;
+    padding: 2%;
+    text-align: center;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+}
+
+.menu-list li {
+margin-right: 3rem;
+}
+
+.menu-list li a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.menu-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.menu-list li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .4s;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+.menu-list li a:hover::after {
+    width: 100%;
+}
+
+hr{
+    height: 3px;
+    width: 90%;
+    background-color: white;
+}
+
+.bienvenida h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 2%;
+}
+
+.bienvenida p{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font-size :large;
+    margin: 1%;
+}
+
+.imagenbien{
+    width:20% ;
+    height: auto;
+    border-radius: 90%;
+    border: 10px solid #06116d;
+    
+}
+.contenedor{
+    text-align: center;
+}
+
+.imagentp{
+    max-width: 70%;
+    width:70% ;
+    height: auto;
+    border: 10px solid whitesmoke;
+    border-radius: 5%;
+    
+}
+
+.contenedortp{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    margin: 2% auto;
+}
+/*CSS PAGINA DE IMPACTO SOCIAL*/
+.contenido1 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+
+.contenido1 p{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    margin: 1%;
+}
+
+.contenido1 h3{
+    display: flex;
+    justify-content: left;
+    font-size: 1.2rem;
+    margin: 1%;
+
+}
+.listaCm{
+    font-size: large;
+    margin: 1%;
+}
+
+.contenedorS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.imagenS1{
+    width: 30%;
+    height: auto;
+    border-radius: 5%;
+    border: 5px solid white;
+    margin: 2%;
+}
+
+.imagenS2{
+    width: 35%;
+    height: auto;
+    border-radius: 3%;
+    border: 5px solid white;
+    margin: 2%;
+}
+
+.contenedorVS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.videoS{
+    margin-bottom: 10px;
+}
+
+.autorVS{
+    background-color: white;
+    font-size: larger;
+    font-family: 'Oswald', sans-serif;
+    border: 5px solid whitesmoke;
+    border-radius: 5%;
+}
+/*CSS PAGINA IMPACTO EN LOS NEGOCIOS*/
+.contenedorN{
+    padding: 2%;
+    font-size: larger;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenN{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    align-items: center;
+}
+
+.imgn1{
+    border: 5px solid whitesmoke;
+    border-radius: 5%;
+}
+
+.videosNA{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: black;
+    border: 5px solid whitesmoke;
+}
+
+.videoNA iframe{
+    flex: 1;
+    max-width: 100%;
+}
+/*CSS PAGINA DE CONTACTOS*/
+
+
+
+footer{ /*FOOTER GENERALES DE TODAS LAS PAGINAS*/
+    background-color: #191a1b;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
