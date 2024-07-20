@@ -345,7 +345,7 @@ footer{ /*FOOTER GENERALES DE TODAS LAS PAGINAS*/
     margin: 2%;
     font-size: large;
 }
-
+/*SERVICIOS DE PAGINAS E CONTECTOS*/
 .contenedor-servicios{
     display: flex;
     justify-content: center;
