@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <img src="/imageness/logo.png" class="logoRedondo" width="10%" alt="logo empresa"/>
+        <img src="/imageness/logo.png" class="logoRedondo" width="10%" alt="10%"/>
         <h1 id="nomEmpre">Ecu Technology</h1>
         <h2 id="titu-menu">Menú</h2>
         <hr>
@@ -25,74 +25,75 @@
      </nav>
      <hr> 
     </header>
-    
-    <section>
+
+    <section class="contenedor-con">
     <article>
-<p>
+<h3>
     ¡Hola!, sean bienvenidos a nuestro apartado de contactos aquí vas a encontrar todas nuestras redes sociales, servicios que ofrecemos, puedes seguirnos en cada uno de nuestras redes así estarás al tanto de novedades y ofertas antes de llegar al Sitio Web Siéntanse libre de dejar un comentario, si hay problema con servicio o información, pueden dejar un pequeño comentario o consulta en la parte de abajo del formulario, gracias :D
-</p>
+</h3>
 
 
-<h1>Redes Sociales</h1>
-<div></div>
-<img src="/imageness/facebook.png" width="10%" alt="FACEBOOK"/>
-<br><br/>
-<a href="https://www.facebook.com/deijeie" target="_blank">FACEBOOK</a>
-<br><br/>
-<img src="/imageness/insta.png" width="10%" alt="INSTAGRAM"/>
-<br><br/>
-<a href="https://www.instagram.com/not_spokyz/" target="_blank">INSTAGRAM</a>
-<br><br/>
-<img src="/imageness/tiktok.png" width="10%" alt="TIK TOK"/>
-<br><br/>
-<a href="https://www.tiktok.com/@spokyz.ec/" target="_blank">TIK TOK</a>
-<br><br/>
-<img src="/imageness/X.avif" width="10%" alt="X"/>
-<br><br/>
-<a href="https://x.com/" target="_blank">X-TWITTER</a>
-<br><br/>
-<img src="/imageness/youtube.png" width="10%" alt="YOUTUBE"/>
-<br><br/>
-<a href="https://www.youtube.com/channel/UCVHDcYpngB8Wz4YxTYsaPdA" target="_blank">YOUTUBE</a>
-<br><br/>
-<img src="/imageness/gmail.png" width="10%" alt="GMAIL"/>
-<br><br/>
-<h3>ramirezdeimar123@gmail.com
-    <br><br/>
-    EcuTechnology.ecutech.god.ec</h3>
-    <br><br/>
+<h2>Redes Sociales</h2>
+    <div class="redes-contenedor">
+        <ul>
+            <li><a class="facebook" href="https://www.facebook.com/deijeie" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a class="instagram" href="https://www.instagram.com/not_spokyz/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a class="tiktok" href="https://www.tiktok.com/@spokyz.ec/" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+            <li><a class="x" href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a class="youtube" href="https://www.youtube.com/@Spokyzbara" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a class="linkedin" href="https://ec.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+    <script src="https://kit.fontawesome.com/dc6b1e6fb0.js" crossorigin="anonymous"></script>
     </article>
 
-<h1>Servicios</h1>
-<ul>
-    <li>Transformación Digital</li>
-    <br><br/>
-    <img src="/imageness/transDigi.jfif" width="30%" alt="Transformacion Digital"/>
-    <br><br/>
-    <li>Marketing Digital</li>
-    <br><br/>
-    <img src="/imageness/marketing.jfif" width="30%" alt="Marketing Digital"/>
-    <br><br/>
-    <li>Mantenimiento de Sitio Web</li>
-    <br><br/>
-    <img src="/imageness/mante.jpg" width="30%" alt="Mantenimiento Sitio Web"/>
-    <br><br/>
-    <li>Marketing de Contenidos</li>
-    <br><br/>
-    <img src="/imageness/markecontenido.jfif" width="30%" alt="Marketing de Contenido"/>
-</ul>
+<h2>Servicios Ofrecidos</h2>
+<div class="contenedor-servicios">
+    <div class="cuadrado">
+        <div class="servicio">
+            <h3>Transformación Digital</h3>
+            <img src="/imageness/transDigi1.0.png" width="30%" alt="Transformacion Digital"/>
+        </div>
+        <div class="servicio">
+            <h3>Marketing Digital</h3>
+            <img src="/imageness/markrting.png" width="30%" alt="Marketing Digital"/>
+        </div>
+    </div>
+    <div class="cuadrado">
+        <div class="servicio">
+            <h3>Mantenimiento de Sitio Web</h3>
+            <img src="/imageness/mante1.0.png" width="30%" alt="Mantenimiento Sitio Web"/>
+        </div>
+        <div class="servicio">
+            <h3>Marketing de Contenidos</h3>
+            <img src="/imageness/markec.png" width="30%" alt="Marketing de Contenido"/>
+        </div>
+    </div>
+</div>
 
+<h2>Formulario, puedes dejar tus opiniones sobre la Informacion-Contenido.</h2>
+<div class="contenedor-principal">
+    <div class="form-cont" >
+    
+        <form>
+            <h2>Formulario.</h2>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" >
 
+            <label for="email">Correo Electronico</label>
+            <input type="email" name="email" id="email">
 
-<H2>Formulario, puedes dejar tu opiniones sobre el contenido.</H2>
-<form method="post" action="process.php">
-    Nombre: <input type="text" size="10" maxlength="40" name="nombre"> <br />
-    Contraseña: <input type="password" size="10" maxlength="10" name="contraseña"><br />
-    <textarea rows="5" cols="20" wrap="physical" name="comments">Escribe un comentario</textarea><br />
-    <input type="submit" value="Enviar formulario">
-</form>
+            <label for="subject">Asunto</label>
+            <input type="text" name="subject" id="subject" >
 
-    </section>
+            <label for="coments">Comentarios</label>
+            <textarea name="coments" id="coments" cols="30" rows="5" ></textarea>
+
+            <input class="btn" type="submit" value="Enviar formulario">
+        </form>
+    </div>
+</div>
+    </section></div>
     <footer>
         <h2> @DeimarRamirez EcuTechnology.god @copy vigente. @creditos de los videos a los creadores.--Añoo de publicacion 25-05-2024 
               Copyright ©  @ElDiseñoBasic.basic.us.com Copyright©

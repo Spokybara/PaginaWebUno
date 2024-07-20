@@ -27,65 +27,95 @@
      <hr>
     </header>
 
-        <section>
+        <section class="horarios-cont">
         <h1>HORARIOS DE ATENCION PRESENCIAL</h1>
-        <H3>Los días asbado se presta servicio hasta las 12:00, los domingo no se presta servico al cliente, </H3>
-        <table border="5">
+        <H3>Los días Sábado se presta servicios hasta las 12:00, domingo no se presta servicio al cliente, </H3>
+        <div class="contenedor-tablas1">
+            <div class="contenedor-tabla1">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Hora</td>
+                        <td>Lunes </td>
+                        <td>Martes</td>
+                        <td>Miércoles</td>
+                        <td>Juevez</td>
+                        <td>Viernes</td>
+                        <td>Sábado</td>
+                        <td>Domingo</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>8:00 AM/ 12:00 PM</td>
+                        <td>Se atiende</td>
+                        <td>Se atiende</td>
+                        <td>Se atiende</td>
+                        <td>Se atiende</td>
+                        <td>Se atiende</td>
+                        <td>Se atiende</td>
+                        <td>No</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<h3>Se da soporte via Canales Web, hasta 6:00 PM, fines de semana no se brinda Soporte Tecnico Via Canales Web</h3>
+    <div class="contenedor-tablas1"> 
+    <div class="contenedor-tabla1">
+        <table>
+            <thead>
             <tr>
                 <td>Hora</td>
                 <td>Lunes </td>
                 <td>Martes</td>
-                <td>Miercoles</td>
+                <td>Miércoles</td>
                 <td>Juevez</td>
                 <td>Viernes</td>
                 <td>Sábado</td>
                 <td>Domingo</td>
             </tr>
-            <tr>
-                <td>8:00 AM/ 12:00 PM</td>
-                <td>Se ateinde</td>
-                <td>Se ateinde</td>
-                <td>Se atiende</td>
-                <td>Se atiende</td>
-                <td>Se atiende</td>
-                <td> Se atiende</td>
-                <td>No</td>
-            </tr>
-        </table>
-<br><br/>
-<h3>Se da soporte via Canales Web, hasta la seis pm y fines de semana no se brinda Soporte Tecnico Via Canales Web</h3>
-
-        <table border="5">
-            <tr>
-                <td>Hora</td>
-                <td>Lunes </td>
-                <td>Martes</td>
-                <td>Miercoles</td>
-                <td>Juevez</td>
-                <td>Viernes</td>
-                <td>Sábado</td>
-                <td>Domingo</td>
-            </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>10:00 AM/ 6:00 PM</td>
-                <td>Se ateinde</td>
-                <td>Se ateinde</td>
+                <td>Se atiende</td>
+                <td>Se atiende</td>
                 <td>Se atiende</td>
                 <td>Se atiende</td>
                 <td>Se atiende</td>
                 <td> No</td>
                 <td>No</td>
             </tr>
+        </tbody>
         </table>
-
-    <br><br/>
+        </div>
+    </div>
+    </div>
+    
         <h2>Formulario</h2>
-    <form method="post" action="process.php">
-        Nombre: <input type="text" size="10" maxlength="40" name="nombre"> <br />
-        Contraseña: <input type="password" size="10" maxlength="10" name="contraseña"><br />
-        <textarea rows="5" cols="20" wrap="physical" name="comments">Escribe un comentario</textarea><br />
-        <input type="submit" value="Enviar formulario">
-    </form>
+    <h2>Formulario, puedes dejar tus opiniones sobre la Informacion-Contenido.</h2>
+    <div class="contenedor-principal">
+        <div class="form-cont" >
+        
+            <form>
+                <h2>Formulario.</h2>
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" >
+    
+                <label for="email">Correo Electronico</label>
+                <input type="email" name="email" id="email">
+    
+                <label for="subject">Asunto</label>
+                <input type="text" name="subject" id="subject" >
+    
+                <label for="coments">Comentarios</label>
+                <textarea name="coments" id="coments" cols="30" rows="5" ></textarea>
+    
+                <input class="btn" type="submit" value="Enviar formulario">
+            </form>
+        </div>
+    </div>
 
     </section>
 
